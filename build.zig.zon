@@ -1,0 +1,35 @@
+.{
+    .name = .imgui_glfw_example,
+    .version = "0.0.0",
+    .fingerprint = 0xd52396cc10f270df,
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{
+        //specifying depåendencies this can be any git repo so im pulling glfw imgui and cimgui direct from source
+        //the names given eg .glfw or .imgui are important as the signify the name used in the build
+
+        //these archives are a bit old by a few months as of making this repo but they work with my code
+        .glfw = .{
+            .url = "https://github.com/glfw/glfw/archive/21fea01161e0d6b70c0c5c1f52dc8e7a7df14a50.zip",
+            .hash = "122099c901b5d7ca93fc3466a7942ef0d9860df2cc418f000ce0b80c155960283739",
+        },
+
+        .imgui = .{
+            .url = "https://github.com/ocornut/imgui/archive/dbb5eeaadffb6a3ba6a60de1290312e5802dba5a.zip",
+            .hash = "122008fc93d2a565a333ec120399fa8904d42a3b2e4307d54af50dade393207f8f06",
+        },
+
+        .cimgui = .{
+            .url = "https://github.com/cimgui/cimgui/archive/d6b4ecda718352bb4adcd30ec25784fd16538b73.zip",
+            .hash = "1220904bc0a7883fb07c9a87a6093d84d39b5055f26394c0ea6527d5272296090c11",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
