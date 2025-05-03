@@ -19,8 +19,8 @@ cd imgui-glfw-example-zig
 zig build run
 ```
 
-##Projects to checkout
-The amazing [Dear ImGui](https://github.com/ocornut/imgui)
-The c port of ImGui [CImGui](https://github.com/cimgui/cimgui)
-The window manager [GLFW](https://github.com/glfw/glfw)
+## Projects to checkout
+The amazing [Dear ImGui](https://github.com/ocornut/imgui)\
+The c port of ImGui [CImGui](https://github.com/cimgui/cimgui)\
+The window manager [GLFW](https://github.com/glfw/glfw)\
 And of course [Zig](https://ziglang.org/) itself
